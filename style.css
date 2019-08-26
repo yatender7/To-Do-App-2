@@ -1,0 +1,119 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#85a7ea;
+    font-family: monospace;
+}
+#container
+{
+    width: 60%;
+    height: 450px;
+    /*border: 2px solid black;*/
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+#inputBox
+{
+    width: 100%;
+    /*border: 2px solid black;*/
+    height: 70px;
+}
+#input
+{
+    width: 700px;
+    height: 30px;
+    margin: 15px;
+    margin-left: 70px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 5px;
+}
+#Addicon
+{
+    font-size: 50px;
+    position: absolute;
+    margin-top: 12px;
+    cursor: pointer;
+    
+}
+ul li
+{
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    width: 70%;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    border-radius: 5px;
+    transition: .7s;
+    user-select:none;
+    margin-bottom: 10px;
+    color: white;
+    transition: 1s;
+}
+#heading
+{
+    text-align: center;
+    font-size: 30px;
+}
+p
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#p1
+{
+    color: darkgoldenrod;
+}
+#p2
+{
+    color: chartreuse;
+}
+#btn
+{
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+}
+ul li.checked
+        {
+           
+            color: darkslategray;
+            text-decoration: line-through;
+            filter: blur(1px);
+        }
+.close
+        {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 12px 16px 12px 16px;
+            color: black;
+            transition: 1s;
+        }
+ .close:hover
+        {
+            background-color: black;
+            color:white ;
+        }

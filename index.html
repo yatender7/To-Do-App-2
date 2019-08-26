@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>To Do App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    </head>
+    <body>
+        <button id="btn" onclick="changeColor()">Change Color</button><h1 id="heading">Work To-Dos</h1>
+        <p id="p1">Enter text into the input field to add items to your list.</p>
+        <p id="p2">Click the item to mark it as complete</p>
+        <p id="p3">Click the "X" to remove the item from your list</p>
+        <div id="container">
+            
+            <div id="inputBox">
+                <input id="input" type="text" placeholder="Add New Item..........."><i id="Addicon" onclick="AddElement()" class="fas fa-pen-square"></i>
+            </div>
+            <div id="listBody">
+                <ul id="myul">
+                    <li>Add item to list</li>
+                    <li>Make a To-Do App</li>
+                    <li>Go Mad</li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
